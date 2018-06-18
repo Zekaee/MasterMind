@@ -8,14 +8,11 @@ import { Color } from '../../types/color';
  * Components.
  */
 @Component({
-  selector: 'bult-bar',
-  templateUrl: 'bult-bar.html'
+  selector: 'bullet-bar',
+  templateUrl: 'bullet-bar.html'
 })
-export class BultBarComponent {
+export class BulletBarComponent {
   @Input() colors: Array<Color>;
-  @Input() isCovered : boolean;
   constructor() {
-    this.colors = [Color.Blue,Color.Yellow,Color.Brown,Color.Pink]; 
-    this.isCovered = false;
   }
 }

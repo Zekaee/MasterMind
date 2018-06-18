@@ -1,0 +1,17 @@
+score-pin {
+    .score{
+        content: " ";
+        width: 20px;
+        height: 20px;
+        margin: 2px;
+    }
+    .score.wrong{
+        background-color: black;
+    }
+    .score.full.correct{
+        background-color: green;
+    }
+    .score.color.correct{
+        background-color: red;
+    }
+}

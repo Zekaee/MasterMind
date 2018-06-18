@@ -6,15 +6,23 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { BultBarComponent } from '../components/bult-bar/bult-bar';
-import { BultComponent } from '../components/bult/bult';
+import { BulletBarComponent } from '../components/Bullet-bar/Bullet-bar';
+import { BulletComponent } from '../components/Bullet/Bullet';
+import { PuzzleBarComponent } from '../components/puzzle-bar/puzzle-bar';
+import { BulletBoardComponent } from '../components/bullet-board/bullet-board';
+import { BulletPalletComponent } from '../components/bullet-pallet/bullet-pallet';
+import { BulletRowComponent } from '../components/bullet-row/bullet-row';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage, 
-    BultBarComponent,
-    BultComponent,
+    BulletBarComponent,
+    BulletComponent,
+    PuzzleBarComponent,
+    BulletBoardComponent,
+    BulletPalletComponent,
+    BulletRowComponent,
   ],
   imports: [
     BrowserModule,

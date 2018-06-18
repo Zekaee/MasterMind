@@ -9,11 +9,11 @@ import { PropertyBindingType } from '@angular/compiler';
  * Components.
  */
 @Component({
-  selector: 'bult',
-  templateUrl: 'bult.html',  
+  selector: 'bullet',
+  templateUrl: 'bullet.html',  
 })
 
-export class BultComponent {
+export class BulletComponent {
   @Input() color: Color;
   @Input() isCovered : boolean;
   constructor() {

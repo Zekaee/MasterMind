@@ -1,4 +1,4 @@
-.bult {
+bullet {
    position: relative;
    &.covered:after{
         content:"";
@@ -16,6 +16,7 @@
         height: 50px;    
         border: 1px solid rgba(0, 0, 0, 0.137);
         border-radius: 50%;
+        margin: 5px;
    }
    div.red{
         background-color: red;
