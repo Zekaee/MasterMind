@@ -1,0 +1,13 @@
+.bult-bar {
+    position: relative;
+    &.covered:after{
+         content:"";
+         top:0;
+         left:0;
+         bottom:0;
+         right:0;
+         position: absolute;
+         background-color: black;
+         border-radius: 5px;
+    }
+}

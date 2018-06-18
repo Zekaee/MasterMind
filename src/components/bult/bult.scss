@@ -1,0 +1,38 @@
+.bult {
+   position: relative;
+   &.covered:after{
+        content:"";
+        top:0;
+        left:0;
+        bottom:0;
+        right:0;
+        position: absolute;
+        background-color: black;
+        border-radius: 50%;
+   }
+   display: inline-block;
+   div{
+        width: 50px;
+        height: 50px;    
+        border: 1px solid rgba(0, 0, 0, 0.137);
+        border-radius: 50%;
+   }
+   div.red{
+        background-color: red;
+   }
+   div.blue{
+        background-color: blue;
+   }
+   div.green{
+        background-color: green;
+   }
+    div.pink{
+        background-color: pink;
+    }
+    div.brown{
+        background-color: brown;
+    }
+    div.yellow{
+        background-color: yellow;
+    }
+}
