@@ -1,18 +1,19 @@
 import { Component, Input } from '@angular/core';
 import { Color } from '../../types/color';
+import { BulletComponent } from '../Bullet/Bullet';
 
-/**
- * Generated class for the BultBarComponent component.
- *
- * See https://angular.io/api/core/Component for more info on Angular
- * Components.
- */
 @Component({
   selector: 'bullet-bar',
   templateUrl: 'bullet-bar.html'
 })
+
 export class BulletBarComponent {
   @Input() colors: Array<Color>;
   constructor() {
+    
+  }
+  doClicked(bullet:BulletBarComponent){
+    console.log(`I'm in ${this}`); 
+    console.log(bullet);
   }
 }

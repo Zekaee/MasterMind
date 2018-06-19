@@ -1,4 +1,5 @@
 bullet {
+   cursor: pointer;
    position: relative;
    &.covered:after{
         content:"";
@@ -19,21 +20,21 @@ bullet {
         margin: 5px;
    }
    div.red{
-        background-color: red;
+        background-color: rgb(197, 58, 58);
    }
    div.blue{
-        background-color: blue;
+        background-color: rgb(51, 51, 145);
    }
    div.green{
-        background-color: green;
+        background-color: rgb(41, 129, 41);
    }
     div.pink{
-        background-color: pink;
+        background-color: rgb(167, 117, 126);
     }
     div.brown{
-        background-color: brown;
+        background-color: rgb(104, 17, 17);
     }
     div.yellow{
-        background-color: yellow;
+        background-color: rgb(139, 139, 25);
     }
 }

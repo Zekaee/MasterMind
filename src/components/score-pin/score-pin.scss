@@ -1,17 +1,21 @@
 score-pin {
-    .score{
+    div {
         content: " ";
         width: 20px;
         height: 20px;
         margin: 2px;
+        border-radius: 50%;
     }
-    .score.wrong{
+    .empty{
+        border: 1px solid #555; 
+    }
+    .wrong{
         background-color: black;
     }
-    .score.full.correct{
+    .full.correct{
         background-color: green;
     }
-    .score.color.correct{
+    .color.correct{
         background-color: red;
     }
 }

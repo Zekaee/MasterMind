@@ -1,5 +1,7 @@
 puzzle-bar {
-    position: relative;
+    margin: 5px;
+    div{
+        position: relative;
     &.covered:after{
          content:"";
          top:0;
@@ -10,4 +12,5 @@ puzzle-bar {
          background-color: black;
          border-radius: 5px;
     }
+    } 
 }

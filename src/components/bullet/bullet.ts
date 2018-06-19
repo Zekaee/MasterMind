@@ -1,22 +1,22 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { Color } from '../../types/color';
-import { PropertyBindingType } from '@angular/compiler';
 
-/**
- * Generated class for the BultComponent component.
- *
- * See https://angular.io/api/core/Component for more info on Angular
- * Components.
- */
 @Component({
   selector: 'bullet',
   templateUrl: 'bullet.html',  
 })
 
 export class BulletComponent {
-  @Input() color: Color;
-  @Input() isCovered : boolean;
+  @Input() 
+  color: Color;
+  @Input()
+  isCovered : boolean;
+  @Output()
+  clicked = new EventEmitter();
   constructor() {
-
+  }
+  doClicked(){
+  //  console.log(`I'm in ${this}`); 
+    this.clicked.emit({bullet:this});
   }
 }

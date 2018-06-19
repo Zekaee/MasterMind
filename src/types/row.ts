@@ -6,6 +6,6 @@ export class Row{
     scores : Array<Score>;
     public Row(){
         this.colors = [Color.None,Color.None,Color.None,Color.None];
-        this.scores = [Score.Wrong,Score.Wrong,Score.Wrong,Score.Wrong];
+        this.scores = [Score.Empty,Score.Empty,Score.Empty,Score.Empty];
     }
 }

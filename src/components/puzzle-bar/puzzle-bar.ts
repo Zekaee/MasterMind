@@ -13,7 +13,9 @@ import { Color } from '../../types/color';
 })
 export class PuzzleBarComponent {
   @Input() colors : Array<Color>;
+  @Input() isCovered : boolean;
+  @Input() selectedColor: Color;
   constructor() {
-    this.colors = [Color.Blue,Color.Yellow,Color.Brown,Color.Pink]; 
+    
   }
 }

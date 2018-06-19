@@ -12,6 +12,8 @@ import { PuzzleBarComponent } from '../components/puzzle-bar/puzzle-bar';
 import { BulletBoardComponent } from '../components/bullet-board/bullet-board';
 import { BulletPalletComponent } from '../components/bullet-pallet/bullet-pallet';
 import { BulletRowComponent } from '../components/bullet-row/bullet-row';
+import { ScoresComponent } from '../components/scores/scores';
+import { ScorePinComponent } from '../components/score-pin/score-pin';
 
 @NgModule({
   declarations: [
@@ -23,6 +25,8 @@ import { BulletRowComponent } from '../components/bullet-row/bullet-row';
     BulletBoardComponent,
     BulletPalletComponent,
     BulletRowComponent,
+    ScoresComponent,
+    ScorePinComponent
   ],
   imports: [
     BrowserModule,

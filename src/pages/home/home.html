@@ -5,19 +5,14 @@
     </ion-title>
   </ion-navbar>
 </ion-header>
-<br/>
-<br/>
-<br/>
-<br/>
-<ion-grid >
+<ion-content>
     <ion-row>
-      <puzzle-bar></puzzle-bar>
+      <puzzle-bar [colors]= "puzzleColors" [isCovered]="puzzleIsCovered" [selectedColor]="selectedColor"></puzzle-bar>
     </ion-row>
     <ion-row>
-        <bullet-board></bullet-board>
+        <bullet-board [rows]="boardRows" [activeRow]="activeRow"></bullet-board>
     </ion-row>
     <ion-row>
-        <bullet-pallet></bullet-pallet>
+        <bullet-pallet [selected]="selected"></bullet-pallet>
     </ion-row>
-<ion-grid>
-  
+</ion-content>
